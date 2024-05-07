@@ -2,6 +2,16 @@
 
 `Q&A-with-SQL-Tabular-RAG-Chatbot` project is a cutting-edge chatbot application that empowers users to engage in seamless question-answering and retrieval-augmented generation (RAG) interactions with SQL databases, CSV, and XLSX files using natural language. This innovative solution leverages the power of GPT-3.5, Langchain, SQLite, and ChromaDB to provide a robust and user-friendly interface for data exploration and analysis
 
+## Project Schema
+<div align="center">
+  <img src="images/project_schema.png" alt="Schema">
+</div>
+
+## Chatbot User Interface
+<div align="center">
+  <img src="images/UI.png" alt="ChatBot UI">
+</div>
+
 ## Features:
 - Chat with SQL Data: Users can effortlessly query SQL databases and retrieve relevant information using natural language, without the need for complex SQL syntax.
 - Chat with Preprocessed CSV and XLSX Data: The chatbot can handle structured data stored in CSV and XLSX formats, allowing users to interact with the information 
@@ -82,15 +92,6 @@ This command will create a VectorDB in `data/chroma` directory.
 
 
 
-## Project Schema
-<div align="center">
-  <img src="images/project_schema.png" alt="Schema">
-</div>
-
-## Chatbot User Interface
-<div align="center">
-  <img src="images/UI.png" alt="ChatBot UI">
-</div>
 
 ## Databases:
 - Diabetes dataset: [Link](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset?resource=download&select=diabetes.csv)
