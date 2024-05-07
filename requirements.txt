@@ -1,0 +1,12 @@
+gradio
+langchain
+langchain_community
+langchain_core
+pandas
+pyprojroot
+python-dotenv
+PyYAML
+SQLAlchemy
+openai
+langchain-openai
+chromadb
