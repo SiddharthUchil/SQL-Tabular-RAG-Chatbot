@@ -1,16 +1,15 @@
-# Q&A-and-RAG-with-SQL-and-TabularData
+# Q&A-with-SQL-Tabular-RAG-Chatbot
 
-`Q&A-and-RAG-with-SQL-and-TabularData` is a chatbot project that utilizes <u>GPT 3.5</u>, <u>Langchain</u>, <u>SQLite</u>, and <u>ChromaDB</u> and allows users to interact (perform <u>Q&A</u> and <u>RAG</u>) with SQL databases, CSV, and XLSX files using natural language.
-
-**Key NOTE:** Remember to NOT use a SQL databbases with WRITE privileges. Use only READ and limit the scope. Otherwise your user could manupulate the data (e.g ask your chain to delete data).
+`Q&A-with-SQL-Tabular-RAG-Chatbot` project is a cutting-edge chatbot application that empowers users to engage in seamless question-answering and retrieval-augmented generation (RAG) interactions with SQL databases, CSV, and XLSX files using natural language. This innovative solution leverages the power of GPT-3.5, Langchain, SQLite, and ChromaDB to provide a robust and user-friendly interface for data exploration and analysis
 
 ## Features:
-- Chat with SQL data.
-- Chat with preprocessed CSV and XLSX data.
-- Chat with uploaded CSV and XSLX files during the interaction with the user interface.
-- RAG with Tabular datasets.
-
-**YouTube video:** TBD
+- Chat with SQL Data: Users can effortlessly query SQL databases and retrieve relevant information using natural language, without the need for complex SQL syntax.
+- Chat with Preprocessed CSV and XLSX Data: The chatbot can handle structured data stored in CSV and XLSX formats, allowing users to interact with the information 
+  using conversational queries.
+- Chat with Uploaded Files: During the interaction, users can upload CSV and XLSX files, which the chatbot will then process and incorporate into the conversation,   
+  enabling dynamic data exploration.
+- Retrieval Augmented Generation (RAG): The chatbot utilizes the RAG technique to enhance the quality and relevance of its responses by seamlessly integrating 
+  information from the underlying data sources.
 
 ## Main underlying techniques used in this chatbot:
 - LLM chains and agents
